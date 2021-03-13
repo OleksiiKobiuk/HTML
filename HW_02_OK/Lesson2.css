@@ -1,0 +1,15 @@
+.p2 {
+  width: 350px;
+  height: 150px;
+  background: green;
+}
+
+.in_the_beggining {
+  width: 450px;
+  height: 500px;
+  background: #e3efe3;
+  padding: 60px;
+  margin: 100px;
+  /*box-sizing: border-box;*/
+  overflow: auto;
+}

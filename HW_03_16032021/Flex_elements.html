@@ -8,21 +8,21 @@
       margin: 0;
     }
 
+    /*Основна рамка*/
     .PicMain {
       width: 500px;
       height: 700px;
-      border: 10px solid blue;
+      border: 5px solid lightskyblue;
       margin-left: 500px;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
     }
 
-    .MainAttributes {
+    /*Характеристики трьох однакових блоків*/
+    .OneThirdPic {
       width: 100%;
       height: 33.33%;
-      box-sizing: border-box;
-      border: 5px solid green;
       display: flex;
       flex-direction: column;
     }
@@ -31,6 +31,7 @@
       width: 100%;
       height: 33.33%;
       background: dodgerblue;
+      text-align: center;
     }
 
     .FewPics {
@@ -47,12 +48,14 @@
       background: ivory;
       display: flex;
       flex-wrap: wrap;
+      text-align: center;
     }
 
     .Pic3 {
       width: 25%;
       height: 100%;
       background: lightgreen;
+      display: flex;
     }
 
     .RectangleB {
@@ -68,42 +71,77 @@
       border: 1px solid white;
       box-sizing: border-box;
     }
+
+    /*Центрування літер*/
+    .LetterCenter {
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
 <body>
 
 <div class="PicMain">
-  <div class="MainAttributes">
-    <div class="PicA"></div>
+  <div class="OneThirdPic">
+    <div class="PicA">
+      <h2>A</h2>
+    </div>
     <div class="FewPics">
-      <div class="Pic2"></div>
-      <div class="Pic3"></div>
+      <div class="Pic2 LetterCenter">
+        <h2>B</h2>
+      </div>
+      <div class="Pic3 LetterCenter">
+        <h2>C</h2>
+      </div>
     </div>
   </div>
-  <div class="MainAttributes">
-    <div class="PicA"></div>
+  <div class="OneThirdPic">
+    <div class="PicA">
+      <h2>A</h2>
+    </div>
     <div class="FewPics">
       <div class="Pic2">
-        <div class="RectangleB"></div>
-        <div class="SquareB"></div>
-        <div class="SquareB"></div>
-        <div class="SquareB"></div>
+        <div class="RectangleB LetterCenter">
+          <h2>B</h2>
+        </div>
+        <div class="SquareB LetterCenter">
+          <h2>C</h2>
+        </div>
+        <div class="SquareB LetterCenter">
+          <h2>D</h2>
+        </div>
+        <div class="SquareB LetterCenter">
+          <h2>E</h2>
+        </div>
       </div>
-      <div class="Pic3"></div>
+      <div class="Pic3 LetterCenter">
+        <h2>F</h2>
+      </div>
     </div>
   </div>
-  <div class="MainAttributes">
-    <div class="PicA"></div>
+  <div class="OneThirdPic">
+    <div class="PicA">
+      <h2>A</h2>
+    </div>
     <div class="FewPics">
       <div class="Pic2">
-        <div class="SquareB"></div>
-        <div class="SquareB"></div>
-        <div class="SquareB"></div>
-        <div class="SquareB"></div>
-        <div class="SquareB"></div>
-        <div class="SquareB"></div>
+        <div class="SquareB LetterCenter">
+          <h2>B</h2>
+        </div><div class="SquareB LetterCenter">
+          <h2>C</h2>
+        </div><div class="SquareB LetterCenter">
+          <h2>D</h2>
+        </div><div class="SquareB LetterCenter">
+          <h2>E</h2>
+        </div><div class="SquareB LetterCenter">
+          <h2>F</h2>
+        </div><div class="SquareB LetterCenter">
+          <h2>G</h2>
+        </div>
       </div>
-      <div class="Pic3"></div>
+      <div class="Pic3 LetterCenter">
+        <h2>H</h2>
+      </div>
     </div>
   </div>
 </div>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex box</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+
+    .PicMain {
+      width: 500px;
+      height: 700px;
+      border: 10px solid blue;
+      margin-left: 500px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .MainAttributes {
+      width: 100%;
+      height: 33.33%;
+      box-sizing: border-box;
+      border: 5px solid green;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .PicA {
+      width: 100%;
+      height: 33.33%;
+      background: dodgerblue;
+    }
+
+    .FewPics {
+      width: 100%;
+      height: 66.67%;
+      background: #cccccc;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .Pic2 {
+      width: 75%;
+      height: 100%;
+      background: ivory;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .Pic3 {
+      width: 25%;
+      height: 100%;
+      background: lightgreen;
+    }
+
+    .RectangleB {
+      width: 100%;
+      height: 50%;
+      background: #999999;
+    }
+
+    .SquareB {
+      width: 33.33%;
+      height: 50%;
+      background: lightgoldenrodyellow;
+      border: 1px solid white;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+<div class="PicMain">
+  <div class="MainAttributes">
+    <div class="PicA"></div>
+    <div class="FewPics">
+      <div class="Pic2"></div>
+      <div class="Pic3"></div>
+    </div>
+  </div>
+  <div class="MainAttributes">
+    <div class="PicA"></div>
+    <div class="FewPics">
+      <div class="Pic2">
+        <div class="RectangleB"></div>
+        <div class="SquareB"></div>
+        <div class="SquareB"></div>
+        <div class="SquareB"></div>
+      </div>
+      <div class="Pic3"></div>
+    </div>
+  </div>
+  <div class="MainAttributes">
+    <div class="PicA"></div>
+    <div class="FewPics">
+      <div class="Pic2">
+        <div class="SquareB"></div>
+        <div class="SquareB"></div>
+        <div class="SquareB"></div>
+        <div class="SquareB"></div>
+        <div class="SquareB"></div>
+        <div class="SquareB"></div>
+      </div>
+      <div class="Pic3"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

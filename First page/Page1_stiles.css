@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 * {
   margin: 0;
@@ -179,9 +179,9 @@ nav {
 }
 
 .quantity {
-  width: 45.75px;
+  width: 46px;
   height: 17px;
-  left: 1469.25px;
+  left: 1469px;
   top: 63px;
   display: flex;
   justify-content: center;
